@@ -1,0 +1,9 @@
+{
+	"name": "saisree-adf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0e84999e-7225-41ab-9537-4e96e25d7f38",
+		"tenantId": "039a4137-5961-45b9-85dc-a374673d934e"
+	}
+}

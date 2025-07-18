@@ -1,0 +1,88 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnk_azuresql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "BusinessEntityID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "NationalIDNumber",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LoginID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "OrganizationNode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "OrganizationLevel",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "JobTitle",
+				"type": "nvarchar"
+			},
+			{
+				"name": "BirthDate",
+				"type": "date"
+			},
+			{
+				"name": "MaritalStatus",
+				"type": "nchar"
+			},
+			{
+				"name": "Gender",
+				"type": "nchar"
+			},
+			{
+				"name": "HireDate",
+				"type": "date"
+			},
+			{
+				"name": "SalariedFlag",
+				"type": "bit"
+			},
+			{
+				"name": "VacationHours",
+				"type": "smallint",
+				"precision": 5
+			},
+			{
+				"name": "SickLeaveHours",
+				"type": "smallint",
+				"precision": 5
+			},
+			{
+				"name": "CurrentFlag",
+				"type": "bit"
+			},
+			{
+				"name": "rowguid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "HumanResources_Employee"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
